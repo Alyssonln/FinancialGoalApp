@@ -2,6 +2,26 @@
   "expo": {
     "name": "FinancialGoalApp",
     "slug": "FinancialGoalApp",
-    "version": "1.0.0"
+    "scheme": "FinancialGoalApp",
+    "version": "1.0.0",
+    "plugins": [
+      "expo-router",
+      "expo-status-bar",
+      "expo-font"
+    ],
+    "android": {
+      "package": "com.alyssonln.financialgoalapp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#3D44CD"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.alyssonln.financialgoalapp",
+      "icon": "./assets/ios-icon.png"
+    },
+    "web": {
+      "bundler": "metro"
+    }
   }
 }

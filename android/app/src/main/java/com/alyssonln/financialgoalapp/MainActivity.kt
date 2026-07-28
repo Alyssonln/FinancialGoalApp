@@ -1,4 +1,4 @@
-package com.financialgoalapp
+package com.alyssonln.financialgoalapp
 
 import android.os.Build
 import android.os.Bundle

@@ -30,7 +30,20 @@ yarn-error.*
 *.pem
 
 # local env files
+.env
 .env*.local
 
 # typescript
 *.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+
+# build outputs
+*.apk
+*.aab
+
+# logs
+*.log
+.eslintcache
