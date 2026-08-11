@@ -4,7 +4,8 @@ import { colors, fontFamily } from "@/theme";
 export const styles = StyleSheet.create({
   container: {
     width: '100%',
-    paddingTop: 32
+    paddingTop: 32,
+    paddingBottom: 24
   },
   header: {
     flexDirection: 'row',

@@ -1,7 +1,9 @@
-import { Text, View, Button } from "react-native";
-import { router } from "expo-router";
+import { View } from "react-native";
 
+import { Input } from "@/components/Input";
+import { Button } from "@/components/Button";
 import { HeaderPage } from "@/components/HeaderPages";
+import { InputCurrent } from "@/components/InputCurrent";
 
 export default function Target() {
   return (
@@ -11,7 +13,18 @@ export default function Target() {
           subTitle="Economize para alcançar sua meta financeira."
         />
 
-        <Button title="Voltar" onPress={() => router.back()} />
+        <Input 
+          target="Nome da meta"
+        />
+
+        <InputCurrent 
+          label="Valor alvo (R$)"
+          value={0}
+        />
+
+        <Button 
+          title="Salvar"
+        />
       </View>
   )
 }
